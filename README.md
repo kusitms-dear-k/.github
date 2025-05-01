@@ -4,7 +4,7 @@
 
 <div align="center">
 
-| **황유림** | **황동준** | **이현지** | **임지수** | 
+| **황유림** | **황동준** | **이현지** | **정인아** | 
 | :------: |  :------: | :------: | :------: | 
 | [<img src="https://avatars.githubusercontent.com/u/156565796?v=4" height=150 width=150> <br/> @ummiih](https://github.com/ummiih) | [<img src="https://avatars.githubusercontent.com/u/114459629?v=4" height=150 width=150> <br/> @nebulaBdj](https://github.com/nebulaBdj) | [<img src="https://avatars.githubusercontent.com/u/110108243?v=4" height=150 width=150> <br/> @Amepistheo](https://github.com/Amepistheo) | [<img src="https://avatars.githubusercontent.com/u/150119998?v=4" height=150 width=150> <br/> @InaJeong73](https://github.com/InaJeong73) | 
 | `프론트 리더`  | `프론트` | `백엔드 리더` | `백엔드` |
