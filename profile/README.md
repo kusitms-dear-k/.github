@@ -16,6 +16,9 @@
 [<img src="https://github.com/user-attachments/assets/c24d420d-8f58-4e10-9f1b-1998d7fd1a98" height=150 width=150>
 </div>
 
+## 📢 API 명세서
+[디어케이 API 명세서](http://223.130.155.249:8080/swagger-ui/index.html)<br><br>
+
 ## 🌱 ERD
 ![image](https://github.com/user-attachments/assets/2de8c9d4-0b89-4507-bb9a-6ffc94888187)
 
