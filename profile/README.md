@@ -26,12 +26,84 @@
 ![아키텍처](https://github.com/user-attachments/assets/d6fd0075-d54a-4082-b00e-6ddb7af37f72)
 
 ## 🤔 질문사항
-#### 프론트엔드 3가지
+### 프론트엔드 3가지
 1.
 2.
 3.
 
-#### 백엔드 3가지
-1.
-2.
-3.
+<div style="font-family: Arial, sans-serif; line-height: 1.6; font-size: 15px;">
+
+  <h3> 백엔드 3가지</h3>
+
+  <!-- 1. 가게 - 디자인 - 옵션 -->
+  <div style="margin-bottom: 30px;">
+    <h4>1. 가게 - 케이크 디자인 - 옵션 연관관계</h4>
+    <p>
+      하나의 <strong>가게(store)</strong>는 여러 개의 <strong>케이크 디자인(design)</strong>을 가집니다.
+    </p>
+    <p>각 케이크 디자인은 아래와 같은 <strong>선택 옵션</strong>들을 포함합니다:</p>
+    <ul>
+      <li>시트맛 (예: 초코, 바닐라 등)</li>
+      <li>크림맛 (예: 초코, 바닐라 등)</li>
+      <li>크기 (예: 도시락 케이크, 1호 케이크, 2호 케이크 등)</li>
+    </ul>
+    <p style="margin-top: 10px;">
+      👉 현재 <strong>테이블 간 연관관계 설정이 적절한지</strong> 확인하고 싶습니다.<br />
+      혹시 <strong>더 단순화할 수 있는 구조</strong>가 있다면 제안 부탁드립니다!
+    </p>
+  </div>
+
+  <br>
+
+  <!-- 2. 주문서 질문 구조 -->
+  <div style="margin-bottom: 30px;">
+    <h4>2. 주문서 - 공통 질문 및 개별 질문 처리</h4>
+    <p>
+      가게에 주문을 할 때, 공통적으로 필요한 질문은 <code>common_question</code> 테이블에 고정 저장됩니다.<br />
+      각 가게는 추가로 자체적인 질문을 설정할 수 있으며,<br />
+      실제 주문서에 표시되는 질문들은 모두 <code>order_question</code> 테이블에 저장됩니다.
+    </p>
+
+  <div style="margin-top: 10px;">
+  <strong>💡 예시:</strong>
+  <div style="margin-top: 5px;">
+    <p><strong>공통 질문:</strong></p>
+    <p>- 이름이 무엇인가요?<br />- 어떤 디자인을 주문하시나요?</p>
+    <p><strong>추가 질문:</strong></p>
+    <p>- 원하는 케이크 모양은?(원형, 하트 등)<br />- 기타 요청사항을 말씀해주세요.</p>
+  </div>
+</div>
+
+<p style="margin-top: 10px;">
+      👉 이런 구조가 <strong>확장성과 관리 측면에서 적절한지</strong> 궁금합니다.<br />
+      더 나은 설계 방식이 있다면 제안 부탁드립니다!
+    </p>
+
+  </div>
+
+  <br>
+
+  <!-- 3. 통합검색 기준 -->
+<div>
+  <h4>3. 통합검색 정확도 및 정렬 기준</h4>
+  <p>
+    예: 사용자가 <strong>“상도동 봉천동 생일 케이크”</strong>라고 검색할 경우,<br />
+    → 해당 키워드를 모두 포함한 <strong>가게 및 디자인</strong>을 <strong>정확도 순</strong>으로 우선 노출해야 합니다.
+  </p>
+
+  <div style="margin-top: 10px;">
+    <strong>✅ 지원하는 필터 조건:</strong>
+    <p>- 당일 주문 가능 여부</p>
+    <p>- 지역 리스트 (예: 상도동, 봉천동 등)</p>
+    <p>- 주문 가능한 날짜 범위 (예: 2025-04-30 ~ 2025-05-03)</p>
+    <p>- 최소 금액 / 최대 금액</p>
+    <p>- 도시락 케이크 여부</p>
+  </div>
+
+  <div style="margin-top: 10px;">
+    👉 위 <strong>키워드 + 필터 조건</strong>을 바탕으로 <strong>정확도를 어떻게 계산할지</strong>와 <strong>결과를 어떤 기준으로 정렬할지</strong>에 대한 의견을 듣고 싶습니다!
+  </div>
+</div>
+
+
+</div>
