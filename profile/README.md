@@ -1,6 +1,6 @@
 ## 💘 팀 소개
 
-[대학생IT경영학회 큐시즘](https://www.instagram.com/kusitms_official/) 31기 **"오케이-크"** 팀입니다!<br>
+[대학생IT경영학회 큐시즘](https://www.instagram.com/kusitms_official/) 31기 **"오-케잌"** 팀입니다!<br>
 
 <div align="center">
 
