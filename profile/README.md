@@ -13,7 +13,7 @@
 
 ## 🍰 디어케이 로고
 <div align="center">
-[<img src="https://github.com/user-attachments/assets/c24d420d-8f58-4e10-9f1b-1998d7fd1a98" height=150 width=150>
+<img src="https://github.com/user-attachments/assets/c24d420d-8f58-4e10-9f1b-1998d7fd1a98" height=150 width=150>
 </div>
 
 ## 📢 API 명세서
